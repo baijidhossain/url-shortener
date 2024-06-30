@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from vmx.link/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jun 2024 07:47:13 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <title>vmx.link - The Best Link Shortening Service</title>
+  <meta name="description"
+    content="vmx.link is a fast and easy way to create short and memorable links for your website, social media, or business. Track your link performance with our advanced analytics and BDIX connectivity. Try it for free today!" />
+  <meta name="keywords"
+    content="tinyvmx, short, create, links, social, vmx.link, url shortener, shorten links, link shortener, shorten url, custom url, custom link, link analytics, link tracking, link management, link, branding, vmx, vmxlink" />
+  <meta name="author" content="vmx.link" />
+  <meta property="og:title" content="vmx.link - Fast and Reliable URL Shortener Service" />
+  <meta property="og:description"
+    content="vmx.link is a fast and reliable URL shortener service that helps you shorten long URLs into short and easy-to-share links." />
+  <meta property="og:url" content="index.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="public/images/og-image.jpg" />
+
+  <link rel="canonical" href="index.html" />
+  <link rel="alternate" hreflang="en" href="index.html" />
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="public/images/logo.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+
+  <!-- <link rel="stylesheet" href="public/css/tailwind.min.css"> -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <link rel="stylesheet" href="./public/css/style.css">
+
+
+</head>
+
+<body>
+
+  <div class="flex min-h-screen flex-col">
+
+    <header class="fixed w-full top-0 z-10 bg-violet-950">
+      <nav class="transition">
+        <div class="mx-auto max-w-7xl px-4  lg:px-8">
+          <div class="flex h-16 justify-between items-center">
+            <div class="flex flex-shrink-0 items-center">
+              <a href="index.html" class="flex flex-shrink-0 items-center" title="vmx.link">
+                <img class="h-7 w-auto" src="public/images/logo.png" alt="vmx.link" height="28" width="28" />
+                <span class="ml-2 text-xl font-bold text-white">vmx.link</span>
+              </a>
+            </div>
+            <div class="hidden md:flex items-center space-x-3 gap-4">
+              <a href="/url-shortener/index.html" rel="noopener noreferrer"
+                class=" text-white relative menu_active inline-block">Home</a>
+              <a href="/url-shortener/about.html" rel="noopener noreferrer" class=" text-white">About</a>
+              <a href="/url-shortener/brands.html" rel="noopener noreferrer" class=" text-white">Brands</a>
+              <a href="/url-shortener/faq.html" rel="noopener noreferrer" class="text-white">FAQ</a>
+              <a href="/url-shortener/contact.html" rel="noopener noreferrer" class="text-white">Contact</a>
+            </div>
+            <div class="md:hidden">
+              <button id="nav-toggle" class="text-gray-300 focus:outline-none">
+                <i class="fa-solid fa-bars fs-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hidden md:hidden gap-4 pb-5" id="nav-menu">
+          <a href="/url-shortener/index.html" rel="noopener noreferrer"
+            class="block px-4 py-2 text-white  relative menu_active inline-block">Home</a>
+          <a href="/url-shortener/about.html" rel="noopener noreferrer" class="block px-4 py-2 text-white ">About</a>
+          <a href="/url-shortener/brands.html" rel="noopener noreferrer" class="block px-4 py-2 text-white ">Brands</a>
+          <a href="/url-shortener/faq.html" rel="noopener noreferrer" class="block px-4 py-2 text-white ">FAQ</a>
+          <a href="/url-shortener/contact.html" rel="noopener noreferrer"
+            class="block px-4 py-2 text-white ">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="bg-gradient-to-br from-gray-900 via-violet-900 to-indigo-600">
+      <section class="px-4 pt-36 pb-24 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-7xl text-center">
+
+          <h1 class="font-extrabold text-white text-5xl sm:tracking-tight lg:text-6xl -mt-2"><a href="index.html"
+              title="vmx.link">vmx.link</a></h1>
+          <h3 class="mx-auto mt-3 max-w-md text-gray-100 md:mt-5 text-2xl font-semibold">Short your URLs with vmx.link
+          </h3>
+
+          <p class="mx-auto mt-3 max-w-md text-base text-gray-100 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
+
+            Create shorter, more memorable URLs with our simple and powerful tool. Perfect for your website, social
+            media, or business needs. Enhance your online presence with easy-to-share short links.
+
+          </p>
+
+          <form class="mx-auto mt-8 max-w-2xl" action="#" method="POST" id="shorten-form">
+            <input type="hidden" name="__token" value="MTcxODE3ODQzMzY2Njk1MjgxOWVhOTc5LjAwNjg5ODgy">
+            <div class="relative flex flex-row">
+              <input type="url" name="url" placeholder="Enter a URL to shorten" autocomplete="off" required
+                class="w-48 flex-grow rounded-md border-gray-300 py-3.5 pl-4 pr-36 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                placeholder="https://" value="" />
+
+              <input type="hidden" name="g-recaptcha" id="g-recaptcha">
+
+              <button type="submit"
+                class="absolute right-1.5 top-1.5 flex items-center gap-1 rounded-md bg-indigo-500 py-2 pl-4 pr-3 font-bold text-white hover:bg-indigo-600">
+                Shorten
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="h-5 w-5">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </button>
+            </div>
+            <p class="text-left text-red-500 mt-1 text-sm"></p>
+
+          </form>
+
+          <p class="text-slate-200 mt-5">Use it, its Free...Fast - Secure - Long Term Link</p>
+
+
+        </div>
+      </section>
+    </div>
+
+    <main class="flex-grow">
+
+      <section class="bg-slate-100 pt-24 pb-8">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Features of vmx.link</h2>
+            <p class="mx-auto mt-3 max-w-2xl sm:text-lg sm:mt-4">
+              vmx.link is packed with powerful features, making it the ultimate URL shortener tool.
+              Simplify and manage your links effortlessly for websites, social media, and business needs.
+            </p>
+
+
+          </div>
+          <div class="-mx-4 flex flex-wrap justify-center">
+            <div class="my-0 md:my-8 w-full px-4 md:w-1/2 lg:w-1/3">
+              <div class="p-6 text-center">
+                <div class="inline-block rounded-lg bg-white p-5 shadow-lg text-violet-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 h-10">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z" />
+                  </svg>
+                </div>
+                <h6 class="mt-1 text-lg font-medium">Easy to use</h6>
+                <p class="mt-2 sm:text-lg">vmx.link URL shortener service is very easy to use, with a simple and
+                  intuitive
+                  interface that allows users to create short links quickly and easily.</p>
+              </div>
+            </div>
+            <div class="my-0 md:my-8 w-full px-4 md:w-1/2 lg:w-1/3">
+              <div class="p-6 text-center">
+                <div class="inline-block rounded-lg bg-white p-5 shadow-lg text-violet-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 h-10">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 013.75 9.375v-4.5zM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 01-1.125-1.125v-4.5zM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0113.5 9.375v-4.5z" />
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M6.75 6.75h.75v.75h-.75v-.75zM6.75 16.5h.75v.75h-.75v-.75zM16.5 6.75h.75v.75h-.75v-.75zM13.5 13.5h.75v.75h-.75v-.75zM13.5 19.5h.75v.75h-.75v-.75zM19.5 13.5h.75v.75h-.75v-.75zM19.5 19.5h.75v.75h-.75v-.75zM16.5 16.5h.75v.75h-.75v-.75z" />
+                  </svg>
+                </div>
+                <h6 class="mt-1 text-lg font-medium">QR Code</h6>
+                <p class="mt-2 sm:text-lg">Generate a QR code for the shortened URL, allowing users to quickly and
+                  easily scan the
+                  code with their mobile device to access the original URL.</p>
+              </div>
+            </div>
+            <div class="my-0 md:my-8 w-full px-4 md:w-1/2 lg:w-1/3">
+              <div class="p-6 text-center">
+                <div class="inline-block rounded-lg bg-white p-5 shadow-lg text-violet-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 h-10">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+                  </svg>
+                </div>
+                <h6 class="mt-1 text-lg font-medium">Social Sharing</h6>
+                <p class="mt-2 sm:text-lg">Share shortened links on social media platforms, including Facebook, Twitter,
+                  LinkedIn,
+                  and more, to expand your reach and increase engagement.</p>
+              </div>
+            </div>
+            <div class="my-0 md:my-8 w-full px-4 md:w-1/2 lg:w-1/3">
+              <div class="p-6 text-center">
+                <div class="inline-block rounded-lg bg-white p-5 shadow-lg text-violet-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 h-10">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+                  </svg>
+                </div>
+                <h6 class="mt-1 text-lg font-medium">Statistics</h6>
+                <p class="mt-2 sm:text-lg">Track your link performance with detailed analytics on clicks, referrers,
+                  devices, and
+                  more. Make informed decisions to improve your marketing.</p>
+              </div>
+            </div>
+            <div class="my-0 md:my-8 w-full px-4 md:w-1/2 lg:w-1/3">
+              <div class="p-6 text-center">
+                <div class="inline-block rounded-lg bg-white p-5 shadow-lg text-violet-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 h-10">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                  </svg>
+                </div>
+                <h6 class="mt-1 text-lg font-medium">Secure</h6>
+                <p class="mt-2 sm:text-lg">This system boasts high speed and top-notch security, leveraging HTTPS
+                  connections to
+                  ensure the protection of user data from any unauthorized breaches.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-gray-50 pt-24 pb-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+          <div class="text-center mb-8">
+
+            <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-4"> Secure, Scalable IT Solutions for Your
+              Business
+            </h2>
+            <p class="mx-auto max-w-md  sm:text-lg md:mt-5 md:max-w-3xl md:">
+              Cloud and IT services for businesses. Our resources encompass website design, digital marketing, graphic
+              design, communication solutions, and more. Their cutting-edge cloud services support business growth,
+              while they manage the remaining tasks.</p>
+          </div>
+
+          <div class="-mx-4 flex flex-wrap justify-center">
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 text-center">
+                <a href="https://alpha.net.bd/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/alpha_net.svg" alt="Alpha Net" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 text-center">
+                <a href="https://cfl-it.com/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/cfl-it.svg" alt="Alpha Net" loading="lazy" width="244" height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 text-center">
+                <a href="https://ipbxphone.com/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/ipbxphone.svg" alt="IPBX Phone" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 text-center">
+                <a href="https://residentialvps.com/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/residential_vps.svg" alt="Residential VPS" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 text-center">
+                <a href="https://www.sms.net.bd/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/alpha_sms.svg" alt="Alpha SMS" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 text-center">
+                <a href="https://www.vps.com.bd/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/vps.com.bd.svg" alt="VPS.com.bd" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 text-center">
+                <a href="https://www.pbx.com.bd/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/alpha_pbx.svg" alt="Alpha PBX" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 text-center">
+                <a href="https://www.godigital.com.bd/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/godigital.svg" alt="Go Digital BD" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="lg:mb-0 mb-7 sm:w-1/2 md:w-1/3 lg:w-1/4  w-full px-4">
+              <div class="card2 my-0 text-center">
+                <a href="https://virtue.works/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/virtue-work.svg" alt="Virtue Works" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="md:mb-0 mb-7 sm:w-1/2 md:w-1/3 lg:w-1/4  w-full px-4">
+              <div class="card2 my-0 text-center">
+                <a href="https://www.hotelmotels.info/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/hotel-motels.png" alt="Hotel Motels" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:mb-0 mb-7 sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 my-0 text-center">
+                <a href="https://dojos.info/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/dojos-info.svg" alt="Dojos Info" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 my-0 text-center">
+                <a href="https://www.pizzashops.info/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/pizzashops-info.svg" alt="Pizza Shops" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="mt-10 text-center">
+              <a href="/url-shortener/brands.html"
+                class="bg-gradient-to-br from-gray-900 to-indigo-600 via-violet-900   focus:outline-none  font-semibold hover:bg-violet-700 px-5 py-2 rounded-full shadow-md text-white">
+                About of All Brands
+                <i class="fa-angles-right fa-solid fs-6"></i>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+
+    <footer class="flex-shrink-0 border-t bg-gray-900 text-white">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row min-h-[4rem] py-2 md:py-0 items-center justify-between text-sm">
+          <span class="text-center mb-3 md:mb-0">Copyright © 2024 vmx.link. All rights reserved.</span>
+
+
+          <div class="flex items-center space-x-3 mb-3 md:mb-0">
+            <a href="http://www.facebook.com/share.php?u=https://vmx.link" target="_blank" rel="noopener noreferrer"
+              class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="M13 19.94a8 8 0 1 0-2 0V14H9v-2h2v-1.65c0-1.34.14-1.83.4-2.32.26-.48.65-.87 1.14-1.13.38-.2.85-.33 1.68-.38.33-.02.76 0 1.28.08v1.9H15c-.92 0-1.3.04-1.52.16a.73.73 0 0 0-.31.32c-.13.22-.17.45-.17 1.37V12h2.5l-.5 2h-2v5.94ZM12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20Z" />
+              </svg>
+            </a>
+            <a href="https://twitter.com/intent/tweet?url=https://vmx.link" target="_blank" rel="noopener noreferrer"
+              class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="M15.35 5.55a2.9 2.9 0 0 0-2.9 2.85l-.03 1.57a.6.6 0 0 1-.68.59l-1.56-.22a11.7 11.7 0 0 1-5.9-2.8c-.6 3.31.56 5.6 3.37 7.38l1.75 1.1a.6.6 0 0 1 .04.99l-1.6 1.16c.95.06 1.85.02 2.6-.13 4.71-.94 7.85-4.5 7.85-10.35 0-.48-1.01-2.14-2.94-2.14Zm-4.9 2.81a4.9 4.9 0 0 1 8.38-3.35c.72-.01 1.32.17 2.67-.65C21.17 6 21 6.7 20.3 7.69c0 7.64-4.7 11.36-9.46 12.31-3.27.65-8.02-.42-9.38-1.84.69-.05 3.5-.36 5.14-1.55C5.2 15.7-.28 12.47 3.33 3.79c1.7 1.97 3.4 3.32 5.15 4.03 1.16.48 1.44.47 1.97.54Z" />
+              </svg>
+            </a>
+            <a href="whatsapp://send?text=https://vmx.link" target="_blank" rel="noopener noreferrer"
+              class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="m7.25 18.5.73.42a8 8 0 1 0-2.9-2.9l.43.73-.66 2.4 2.4-.66ZM2.01 22l1.35-4.97a10 10 0 1 1 3.61 3.61L2.01 22ZM8.39 7.3h.4l.17.02c.16.02.33.12.39.25l.87 2.04c.06.15.02.35-.1.54a4.35 4.35 0 0 1-.61.78s-.1.12-.07.26l.1.2.07.1c.25.43.6.86 1.02 1.27.12.12.23.24.36.35.47.41 1 .75 1.57 1l.26.1a1.43 1.43 0 0 0 .26.09c.16 0 .26-.1.3-.14.72-.88.78-.94.79-.94.1-.1.24-.13.38-.12a.5.5 0 0 1 .17.04l1.4.62.59.26c.1.05.18.16.19.27l-.02.37c-.03.26-.1.57-.18.73-.06.12-.13.22-.21.3a2.38 2.38 0 0 1-.46.38l-.38.22c-.26.14-.54.22-.83.23-.19.01-.38.02-.56.01l-.57-.08a9.45 9.45 0 0 1-3.84-2.05c-.23-.2-.43-.41-.65-.62a9.52 9.52 0 0 1-1.97-2.75c-.2-.44-.33-.92-.33-1.4 0-.62.2-1.2.57-1.69.07-.1.14-.2.26-.3a.96.96 0 0 1 .67-.33Z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://vmx.link" target="_blank"
+              rel="noopener noreferrer" class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Zm1 2v14h14V5H5Zm2.5 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm-1 1h2v7.5h-2V10Zm5.5.43a2.93 2.93 0 0 1 2-.93c2.07 0 3.5 1.68 3.5 3.75v4.25h-2v-4.25a1.75 1.75 0 1 0-3.5 0v4.25h-2V10h2v.43Z" />
+              </svg>
+            </a>
+
+          </div>
+
+          <span class=" mb-3 md:mb-0 ">Powered by <a class="text-indigo-300" href="https://alpha.net.bd"
+              target="_blank">Alpha
+              Net</a></span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script async src="../www.google.com/recaptcha/api0e55.js?render=6LedO_MlAAAAAPRm8Rviu7P9QB-MzOBd-ZSFD3zc"></script>
+
+
+  <script>
+
+    // Replace the current history entry with the current URL
+    window.history.replaceState(null, null, window.location.href);
+
+    // Get all the copy buttons
+    const copyButtons = document.querySelectorAll('[data-copy]');
+
+    // Define a function to show and hide the icons
+    const toggleIcons = (copyButton, showCheck) => {
+      const checkIcon = copyButton.querySelector('svg.check');
+      const copyIcon = copyButton.querySelector('svg.copy');
+
+      checkIcon.classList.toggle('hidden', !showCheck);
+      copyIcon.classList.toggle('hidden', showCheck);
+    };
+
+    // Add a click event listener to each copy button
+    copyButtons.forEach(copyButton => {
+      copyButton.addEventListener('click', () => {
+        // Get the text to be copied from the data-copy attribute
+        const textToCopy = copyButton.dataset.copy;
+
+        // Copy the text to clipboard
+        navigator.clipboard.writeText(textToCopy).then(() => {
+          // Show the check icon and hide it after 3 seconds
+          toggleIcons(copyButton, true);
+
+          setTimeout(() => {
+            toggleIcons(copyButton, false);
+          }, 3000);
+        });
+      });
+    });
+
+    // add class to header after certain scroll
+    window.addEventListener('scroll', function () {
+      let navbar = document.querySelector('header nav');
+      navbar.classList[window.scrollY > 50 ? 'add' : 'remove']('bg-neutral-900/50');
+    });
+
+    // if #stats exists, make a async request to the page and do nothing
+    if (document.getElementById('states')) {
+      fetch(document.getElementById('states').href).then(res => res.text()).then(res => {
+        console.log('Great work! 👍');
+      });
+    }
+
+
+
+    $(document).ready(function () {
+      $('#nav-toggle').click(function () {
+        $('#nav-menu').toggleClass('hidden');
+      });
+    });
+
+  </script>
+
+</body>
+
+</html>

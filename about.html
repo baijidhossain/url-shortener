@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <title> vmx.link: Ultimate URL Shortener with Advanced Features for Easy Link Management </title>
+  <meta name="description"
+    content="vmx.link is a fast and easy way to create short and memorable links for your website, social media, or business. Track your link performance with our advanced analytics and BDIX connectivity. Try it for free today!" />
+  <meta name="keywords"
+    content="tinyvmx, short, create, links, social, vmx.link, url shortener, shorten links, link shortener, shorten url, custom url, custom link, link analytics, link tracking, link management, link, branding, vmx, vmxlink" />
+  <meta name="author" content="vmx.link" />
+  <meta property="og:title" content="Worldwide Brand of vmx.link - The Best Link Shortening Service" />
+  <meta property="og:description"
+    content="vmx.link is a fast and reliable URL shortener service that helps you shorten long URLs into short and easy-to-share links." />
+  <meta property="og:url" content="https://vmx.link" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://vmx.link/public/images/og-image.jpg" />
+
+  <link rel="canonical" href="http://www.vmx.link" />
+  <link rel="alternate" hreflang="en" href="https://vmx.link" />
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="https://vmx.link/public/images/logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="./public/css/style.css">
+
+
+</head>
+
+<body>
+
+  <div class="flex min-h-screen flex-col">
+
+    <header class="fixed w-full top-0 z-10 bg-violet-950">
+
+      <nav class="transition">
+
+        <div class="mx-auto max-w-7xl px-4 lg:px-8">
+
+          <div class="flex h-16 justify-between items-center">
+
+            <div class="flex flex-shrink-0 items-center">
+              <a href="index.html" class="flex flex-shrink-0 items-center" title="vmx.link">
+                <img class="h-7 w-auto" src="public/images/logo.png" alt="vmx.link" height="28" width="28" />
+                <span class="ml-2 text-xl font-bold text-white">vmx.link</span>
+              </a>
+            </div>
+
+            <div class="hidden md:flex items-center space-x-3 gap-4">
+              <a href="/url-shortener/index.html" rel="noopener noreferrer" class="text-white">Home</a>
+              <a href="/url-shortener/about.html" rel="noopener noreferrer"
+                class="text-white relative menu_active inline-block">About</a>
+              <a href="/url-shortener/brands.html" rel="noopener noreferrer" class="text-white">Brands</a>
+              <a href="/url-shortener/faq.html" rel="noopener noreferrer" class="text-white">FAQ</a>
+              <a href="/url-shortener/contact.html" rel="noopener noreferrer" class="text-white">Contact</a>
+            </div>
+
+            <div class="md:hidden">
+
+              <button id="nav-toggle" class="text-gray-300 focus:outline-none">
+                <i class="fa-solid fa-bars fs-2"></i>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hidden md:hidden gap-4 pb-5 " id="nav-menu">
+          <a href="/url-shortener/index.html" class="block px-4 py-2 text-white ">Home</a>
+          <a href="/url-shortener/about.html"
+            class="block px-4 py-2 text-white  relative menu_active inline-block">About</a>
+          <a href="/url-shortener/brands.html" class="block px-4 py-2 text-white ">Brands</a>
+          <a href="/url-shortener/faq.html" class="block px-4 py-2 text-white ">FAQ</a>
+          <a href="/url-shortener/contact.html" class="block px-4 py-2 text-white ">Contact</a>
+        </div>
+
+      </nav>
+
+    </header>
+
+
+    <div class="bg-gradient-to-br from-gray-900 via-violet-900 to-indigo-600">
+
+      <section class="px-4 pt-36 pb-24 sm:px-10 lg:px-10">
+
+        <div class="mx-auto max-w-7xl">
+
+          <div class="flex flex-wrap lg:flex-row-reverse justify-between">
+
+            <div class="flex inline-block justify-center lg:justify-end lg:mb-0 lg:w-1/2 mb-8 w-full">
+              <img src="./public/images/url_shortener_about.svg"
+                alt="Empowering Businesses Globally with Next-Gen Cloud &amp; Technology Solutions" loading="lazy"
+                width="450" height="450">
+            </div>
+
+            <div class="grid lg:w-1/2 place-items-center w-full">
+
+              <h3 class="font-semibold mb-4 text-start text-white text-3xl font-extrabold sm:text-4xl">
+                VMX.link: Smart and Powerful URL Shortener
+              </h3>
+              <p class="text-justify text-white sm:text-lg">
+                VMX.link is a URL shortener that converts long URLs into shorter, more manageable links, enhancing user
+                convenience. It offers detailed analytics, security measures like link expiration and password
+                protection, and seamless integration with social media, email marketing, and analytics tools. Essential
+                for digital marketing and efficient link management, VMX.link provides easy sharing, brand consistency,
+                and valuable insights into link performance. Key features include detailed analytics (click counts,
+                geographical data), security measures (link expiration, password protection, spam detection), and
+                integration capabilities with social media, email marketing, and analytics tools. These tools are
+                essential for digital marketing, social media, and efficient link management.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+
+    <main class="flex-grow">
+
+      <section class="bg-gray-50 pt-24 pb-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-10 lg:px-8">
+
+          <div class="text-center mb-8">
+
+            <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-4">Our Brands Deliver Excellent IT Solutions
+              Worldwide </h2>
+
+            <p class="mx-auto max-w-md  sm:text-lg md:mt-5 md:max-w-3xl md:">
+              Cloud and IT services for businesses. Our resources encompass website design, digital marketing, graphic
+              design, communication solutions, and more. Their cutting-edge cloud services support business growth,
+              while they manage the remaining tasks.
+
+            </p>
+
+          </div>
+
+          <div class="-mx-4 flex flex-wrap justify-center">
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 ">
+                <a href="https://alpha.net.bd/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/alpha_net.svg" alt="Alpha Net" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 ">
+                <a href="https://cfl-it.com/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/cfl-it.svg" alt="Alpha Net" loading="lazy" width="244" height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 ">
+                <a href="https://ipbxphone.com/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/ipbxphone.svg" alt="IPBX Phone" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 ">
+                <a href="https://residentialvps.com/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/residential_vps.svg" alt="Residential VPS" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 ">
+                <a href="https://www.sms.net.bd/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/alpha_sms.svg" alt="Alpha SMS" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 ">
+                <a href="https://www.vps.com.bd/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/vps.com.bd.svg" alt="VPS.com.bd" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 ">
+                <a href="https://www.pbx.com.bd/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/alpha_pbx.svg" alt="Alpha PBX" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 ">
+                <a href="https://www.godigital.com.bd/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/godigital.svg" alt="Go Digital BD" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="lg:mb-0 mb-7 sm:w-1/2 md:w-1/3 lg:w-1/4  w-full px-4">
+              <div class="card2 my-0">
+                <a href="https://virtue.works/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/virtue-work.svg" alt="Virtue Works" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="md:mb-0 mb-7 sm:w-1/2 md:w-1/3 lg:w-1/4  w-full px-4">
+              <div class="card2 my-0">
+                <a href="https://www.hotelmotels.info/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/hotel-motels.png" alt="Hotel Motels" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:mb-0 mb-7 sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 my-0">
+                <a href="https://dojos.info/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/dojos-info.svg" alt="Dojos Info" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 my-0 w-full px-4">
+              <div class="card2 my-0">
+                <a href="https://www.pizzashops.info/" target="_blank" class="inline-block">
+                  <img src="./public/images/brands/pizzashops-info.svg" alt="Pizza Shops" loading="lazy" width="244"
+                    height="80">
+                </a>
+              </div>
+            </div>
+
+            <div class="mt-10 text-center">
+              <a href="/url-shortener/brands.html"
+                class="bg-gradient-to-br from-gray-900 to-indigo-600 via-violet-900   focus:outline-none  font-semibold hover:bg-violet-700 px-5 py-2 rounded-full shadow-md text-white">
+                About of All Brands
+                <i class="fa-angles-right fa-solid fs-6"></i>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="flex-shrink-0 border-t bg-gray-900 text-white">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row min-h-[4rem] py-2 md:py-0 items-center justify-between text-sm">
+          <span class="text-center mb-3 md:mb-0">Copyright © 2024 vmx.link. All rights reserved.</span>
+
+
+          <div class="flex items-center space-x-3 mb-3 md:mb-0">
+            <a href="http://www.facebook.com/share.php?u=https://vmx.link" target="_blank" rel="noopener noreferrer"
+              class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="M13 19.94a8 8 0 1 0-2 0V14H9v-2h2v-1.65c0-1.34.14-1.83.4-2.32.26-.48.65-.87 1.14-1.13.38-.2.85-.33 1.68-.38.33-.02.76 0 1.28.08v1.9H15c-.92 0-1.3.04-1.52.16a.73.73 0 0 0-.31.32c-.13.22-.17.45-.17 1.37V12h2.5l-.5 2h-2v5.94ZM12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20Z" />
+              </svg>
+            </a>
+            <a href="https://twitter.com/intent/tweet?url=https://vmx.link" target="_blank" rel="noopener noreferrer"
+              class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="M15.35 5.55a2.9 2.9 0 0 0-2.9 2.85l-.03 1.57a.6.6 0 0 1-.68.59l-1.56-.22a11.7 11.7 0 0 1-5.9-2.8c-.6 3.31.56 5.6 3.37 7.38l1.75 1.1a.6.6 0 0 1 .04.99l-1.6 1.16c.95.06 1.85.02 2.6-.13 4.71-.94 7.85-4.5 7.85-10.35 0-.48-1.01-2.14-2.94-2.14Zm-4.9 2.81a4.9 4.9 0 0 1 8.38-3.35c.72-.01 1.32.17 2.67-.65C21.17 6 21 6.7 20.3 7.69c0 7.64-4.7 11.36-9.46 12.31-3.27.65-8.02-.42-9.38-1.84.69-.05 3.5-.36 5.14-1.55C5.2 15.7-.28 12.47 3.33 3.79c1.7 1.97 3.4 3.32 5.15 4.03 1.16.48 1.44.47 1.97.54Z" />
+              </svg>
+            </a>
+            <a href="whatsapp://send?text=https://vmx.link" target="_blank" rel="noopener noreferrer"
+              class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="m7.25 18.5.73.42a8 8 0 1 0-2.9-2.9l.43.73-.66 2.4 2.4-.66ZM2.01 22l1.35-4.97a10 10 0 1 1 3.61 3.61L2.01 22ZM8.39 7.3h.4l.17.02c.16.02.33.12.39.25l.87 2.04c.06.15.02.35-.1.54a4.35 4.35 0 0 1-.61.78s-.1.12-.07.26l.1.2.07.1c.25.43.6.86 1.02 1.27.12.12.23.24.36.35.47.41 1 .75 1.57 1l.26.1a1.43 1.43 0 0 0 .26.09c.16 0 .26-.1.3-.14.72-.88.78-.94.79-.94.1-.1.24-.13.38-.12a.5.5 0 0 1 .17.04l1.4.62.59.26c.1.05.18.16.19.27l-.02.37c-.03.26-.1.57-.18.73-.06.12-.13.22-.21.3a2.38 2.38 0 0 1-.46.38l-.38.22c-.26.14-.54.22-.83.23-.19.01-.38.02-.56.01l-.57-.08a9.45 9.45 0 0 1-3.84-2.05c-.23-.2-.43-.41-.65-.62a9.52 9.52 0 0 1-1.97-2.75c-.2-.44-.33-.92-.33-1.4 0-.62.2-1.2.57-1.69.07-.1.14-.2.26-.3a.96.96 0 0 1 .67-.33Z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://vmx.link" target="_blank"
+              rel="noopener noreferrer" class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Zm1 2v14h14V5H5Zm2.5 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm-1 1h2v7.5h-2V10Zm5.5.43a2.93 2.93 0 0 1 2-.93c2.07 0 3.5 1.68 3.5 3.75v4.25h-2v-4.25a1.75 1.75 0 1 0-3.5 0v4.25h-2V10h2v.43Z" />
+              </svg>
+            </a>
+
+          </div>
+
+          <span class=" mb-3 md:mb-0 ">Powered by <a class="text-indigo-300" href="https://alpha.net.bd"
+              target="_blank">Alpha
+              Net</a></span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- <script async src="https://www.google.com/recaptcha/api.js?render=6LedO_MlAAAAAPRm8Rviu7P9QB-MzOBd-ZSFD3zc"></script> -->
+
+  <script>
+
+    // Replace the current history entry with the current URL
+    window.history.replaceState(null, null, window.location.href);
+
+    // Get all the copy buttons
+    const copyButtons = document.querySelectorAll('[data-copy]');
+
+    // Define a function to show and hide the icons
+    const toggleIcons = (copyButton, showCheck) => {
+      const checkIcon = copyButton.querySelector('svg.check');
+      const copyIcon = copyButton.querySelector('svg.copy');
+
+      checkIcon.classList.toggle('hidden', !showCheck);
+      copyIcon.classList.toggle('hidden', showCheck);
+    };
+
+    // Add a click event listener to each copy button
+    copyButtons.forEach(copyButton => {
+      copyButton.addEventListener('click', () => {
+        // Get the text to be copied from the data-copy attribute
+        const textToCopy = copyButton.dataset.copy;
+
+        // Copy the text to clipboard
+        navigator.clipboard.writeText(textToCopy).then(() => {
+          // Show the check icon and hide it after 3 seconds
+          toggleIcons(copyButton, true);
+
+          setTimeout(() => {
+            toggleIcons(copyButton, false);
+          }, 3000);
+        });
+      });
+    });
+
+    // add class to header after certain scroll
+    window.addEventListener('scroll', function () {
+      let navbar = document.querySelector('header nav');
+      navbar.classList[window.scrollY > 50 ? 'add' : 'remove']('bg-neutral-900/50');
+    });
+
+    // if #stats exists, make a async request to the page and do nothing
+    if (document.getElementById('states')) {
+      fetch(document.getElementById('states').href).then(res => res.text()).then(res => {
+        console.log('Great work! 👍');
+      });
+    }
+
+
+
+    $(document).ready(function () {
+      $('#nav-toggle').click(function () {
+        $('#nav-menu').toggleClass('hidden');
+      });
+    });
+
+  </script>
+
+
+</body>
+
+</html>

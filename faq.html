@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <title>Frequently Asked Questions | url-shortener</title>
+  <meta name="description"
+    content="vmx.link is a fast and easy way to create short and memorable links for your website, social media, or business. Track your link performance with our advanced analytics and BDIX connectivity. Try it for free today!" />
+  <meta name="keywords"
+    content="tinyvmx, short, create, links, social, vmx.link, url shortener, shorten links, link shortener, shorten url, custom url, custom link, link analytics, link tracking, link management, link, branding, vmx, vmxlink" />
+  <meta name="author" content="vmx.link" />
+  <meta property="og:title" content="Worldwide Brand of vmx.link - The Best Link Shortening Service" />
+  <meta property="og:description"
+    content="vmx.link is a fast and reliable URL shortener service that helps you shorten long URLs into short and easy-to-share links." />
+  <meta property="og:url" content="https://vmx.link" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://vmx.link/public/images/og-image.jpg" />
+
+  <link rel="canonical" href="http://www.vmx.link" />
+  <link rel="alternate" hreflang="en" href="https://vmx.link" />
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="https://vmx.link/public/images/logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="./public/css/style.css">
+
+</head>
+
+<body>
+
+  <div class="flex min-h-screen flex-col">
+
+    <header class="fixed w-full top-0 z-10 bg-violet-950">
+      <nav class="transition">
+        <div class="mx-auto max-w-7xl px-4  lg:px-8">
+          <div class="flex h-16 justify-between items-center">
+            <div class="flex flex-shrink-0 items-center">
+              <a href="index.html" class="flex flex-shrink-0 items-center" title="vmx.link">
+                <img class="h-7 w-auto" src="public/images/logo.png" alt="vmx.link" height="28" width="28" />
+                <span class="ml-2 text-xl font-bold text-white">vmx.link</span>
+              </a>
+            </div>
+            <div class="hidden md:flex items-center space-x-3 gap-4">
+              <a href="/url-shortener/index.html" rel="noopener noreferrer" class="text-white">Home</a>
+              <a href="/url-shortener/about.html" rel="noopener noreferrer" class="text-white">About</a>
+              <a href="/url-shortener/brands.html" rel="noopener noreferrer" class="text-white">Brands</a>
+              <a href="/url-shortener/faq.html" rel="noopener noreferrer"
+                class="text-white relative menu_active inline-block">FAQ</a>
+              <a href="/url-shortener/contact.html" rel="noopener noreferrer" class="text-white">Contact</a>
+            </div>
+            <div class="md:hidden">
+              <button id="nav-toggle" class="text-gray-300 focus:outline-none">
+                <i class="fa-solid fa-bars fs-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hidden md:hidden gap-4 pb-5" id="nav-menu">
+          <a href="/url-shortener/index.html" rel="noopener noreferrer" class="block px-4 py-2 text-white ">Home</a>
+          <a href="/url-shortener/about.html" rel="noopener noreferrer" class="block px-4 py-2 text-white ">About</a>
+          <a href="/url-shortener/brands.html" rel="noopener noreferrer" class="block px-4 py-2 text-white ">Brands</a>
+          <a href="/url-shortener/faq.html" rel="noopener noreferrer"
+            class="block px-4 py-2 text-white  relative menu_active inline-block">FAQ</a>
+          <a href="/url-shortener/contact.html" rel="noopener noreferrer"
+            class="block px-4 py-2 text-white ">Contact</a>
+        </div>
+
+      </nav>
+    </header>
+
+
+
+    <main class="flex-grow">
+
+      <div class="from-gray-900 to-indigo-600 via-violet-900">
+
+        <section class="bg-slate-50 lg:px-10 pb-24 pt-36 px-4 sm:px-10">
+
+          <div class="max-w-3xl mx-auto mb-16">
+            <h1 class="text-4xl font-bold text-center mb-4">URL Shortener FAQ</h1>
+            <p class="text-center text-lg">Explore these FAQs to understand our URL shortener better and enhance your
+              online experience with efficient link management. Discover answers to common questions and learn how to
+              make the most out of our service.</p>
+          </div>
+
+          <div class="max-w-4xl mx-auto card2 mb-0">
+
+            <!-- FAQ Item Template -->
+            <div class="">
+
+              <button
+                class="w-full px-5 py-4 text-left text-gray-800 font-medium flex justify-between items-center focus:outline-none"
+                onclick="toggleAccordion('faq1', this)">
+                What is a URL shortener?
+                <i class="fas fa-chevron-down transition-transform duration-300"></i>
+              </button>
+
+              <div id="faq1" class="accordion-content max-h-0 overflow-hidden px-5 py-0 text-gray-600">
+                A URL shortener is a tool that converts long URLs into shorter, more manageable links. This can make
+                sharing links easier and can help track the performance of shared URLs.
+              </div>
+
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="">
+              <button
+                class="w-full px-5 py-4 text-left text-gray-800 font-medium flex justify-between items-center focus:outline-none"
+                onclick="toggleAccordion('faq2', this)">
+                How do I shorten a URL?
+                <i class="fas fa-chevron-down transition-transform duration-300"></i>
+              </button>
+              <div id="faq2" class="accordion-content max-h-0 overflow-hidden px-5 py-0 text-gray-600">
+                To shorten a URL, simply paste your long URL into the input field on the homepage of our URL shortener
+                service and click the "Shorten" button. You will receive a short URL that redirects to your original
+                link.
+              </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="">
+              <button
+                class="w-full px-5 py-4 text-left text-gray-800 font-medium flex justify-between items-center focus:outline-none"
+                onclick="toggleAccordion('faq3', this)">
+                Is there a limit to the number of URLs I can shorten?
+                <i class="fas fa-chevron-down transition-transform duration-300"></i>
+              </button>
+              <div id="faq3" class="accordion-content max-h-0 overflow-hidden px-5 py-0 text-gray-600">
+                No, there is no limit to the number of URLs you can shorten using our service.
+              </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="">
+              <button
+                class="w-full px-5 py-4 text-left text-gray-800 font-medium flex justify-between items-center focus:outline-none"
+                onclick="toggleAccordion('faq4', this)">
+                Are shortened URLs permanent?
+                <i class="fas fa-chevron-down transition-transform duration-300"></i>
+              </button>
+              <div id="faq4" class="accordion-content max-h-0 overflow-hidden px-5 py-0 text-gray-600">
+                Yes, once a URL is shortened, it will remain active and will always redirect to the original URL.
+              </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="">
+              <button
+                class="w-full px-5 py-4 text-left text-gray-800 font-medium flex justify-between items-center focus:outline-none"
+                onclick="toggleAccordion('faq5', this)">
+                Can I track the performance of my shortened URLs?
+                <i class="fas fa-chevron-down transition-transform duration-300"></i>
+              </button>
+              <div id="faq5" class="accordion-content max-h-0 overflow-hidden px-5 py-0 text-gray-600">
+                Yes, our service provides analytics for each shortened URL. You can see the number of clicks and the
+                referral sources.
+              </div>
+            </div>
+
+            <!-- FAQ Item 6 -->
+            <div class="">
+              <button
+                class="w-full px-5 py-4 text-left text-gray-800 font-medium flex justify-between items-center focus:outline-none"
+                onclick="toggleAccordion('faq6', this)">
+                Is my data secure?
+                <i class="fas fa-chevron-down transition-transform duration-300"></i>
+              </button>
+              <div id="faq6" class="accordion-content max-h-0 overflow-hidden px-5 py-0 text-gray-600">
+                We take data privacy seriously. Your shortened URLs and associated analytics are private and only
+                accessible by you.
+              </div>
+            </div>
+
+            <!-- FAQ Item 7 -->
+            <div class="">
+              <button
+                class="w-full px-5 py-4 text-left text-gray-800 font-medium flex justify-between items-center focus:outline-none"
+                onclick="toggleAccordion('faq7', this)">
+                Can I customize my shortened URL?
+                <i class="fas fa-chevron-down transition-transform duration-300"></i>
+              </button>
+              <div id="faq7" class="accordion-content max-h-0 overflow-hidden px-5 py-0 text-gray-600">
+                Yes, our service allows you to customize the alias of your shortened URL, making it more recognizable
+                and brand-friendly.
+              </div>
+            </div>
+
+            <!-- FAQ Item 8 -->
+            <div class="">
+              <button
+                class="w-full px-5 py-4 text-left text-gray-800 font-medium flex justify-between items-center focus:outline-none"
+                onclick="toggleAccordion('faq8', this)">
+                Are there any restrictions on the types of URLs I can shorten?
+                <i class="fas fa-chevron-down transition-transform duration-300"></i>
+              </button>
+              <div id="faq8" class="accordion-content max-h-0 overflow-hidden px-5 py-0 text-gray-600">
+                We do not allow shortening URLs that link to malicious, inappropriate, or illegal content. Such URLs
+                will be flagged and removed.
+              </div>
+            </div>
+
+            <!-- FAQ Item 9 -->
+            <div class="">
+              <button
+                class="w-full px-5 py-4 text-left text-gray-800 font-medium flex justify-between items-center focus:outline-none"
+                onclick="toggleAccordion('faq9', this)">
+                How long will the shortened URLs be valid?
+                <i class="fas fa-chevron-down transition-transform duration-300"></i>
+              </button>
+              <div id="faq9" class="accordion-content max-h-0 overflow-hidden px-5 py-0 text-gray-600">
+                Shortened URLs are valid indefinitely, as long as they comply with our terms of service. We reserve the
+                right to remove URLs that violate our policies.
+              </div>
+            </div>
+
+            <!-- FAQ Item 14 -->
+            <div class="">
+              <button
+                class="w-full px-5 py-4 text-left text-gray-800 font-medium flex justify-between items-center focus:outline-none"
+                onclick="toggleAccordion('faq14', this)">
+                How do I contact support?
+                <i class="fas fa-chevron-down transition-transform duration-300"></i>
+              </button>
+              <div id="faq14" class="accordion-content max-h-0 overflow-hidden px-4 py-0 text-gray-600">
+                If you have any questions or need assistance, you can contact our support team via email at
+                support@vmx.link or through the contact form on our website.
+              </div>
+            </div>
+            <!-- Add more FAQs as needed -->
+
+          </div>
+
+        </section>
+
+      </div>
+
+    </main>
+
+    <footer class="flex-shrink-0 border-t bg-gray-900 text-white">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row min-h-[4rem] py-2 md:py-0 items-center justify-between text-sm">
+          <span class="text-center mb-3 md:mb-0">Copyright © 2024 vmx.link. All rights reserved.</span>
+
+
+          <div class="flex items-center space-x-3 mb-3 md:mb-0">
+            <a href="http://www.facebook.com/share.php?u=https://vmx.link" target="_blank" rel="noopener noreferrer"
+              class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="M13 19.94a8 8 0 1 0-2 0V14H9v-2h2v-1.65c0-1.34.14-1.83.4-2.32.26-.48.65-.87 1.14-1.13.38-.2.85-.33 1.68-.38.33-.02.76 0 1.28.08v1.9H15c-.92 0-1.3.04-1.52.16a.73.73 0 0 0-.31.32c-.13.22-.17.45-.17 1.37V12h2.5l-.5 2h-2v5.94ZM12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20Z" />
+              </svg>
+            </a>
+            <a href="https://twitter.com/intent/tweet?url=https://vmx.link" target="_blank" rel="noopener noreferrer"
+              class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="M15.35 5.55a2.9 2.9 0 0 0-2.9 2.85l-.03 1.57a.6.6 0 0 1-.68.59l-1.56-.22a11.7 11.7 0 0 1-5.9-2.8c-.6 3.31.56 5.6 3.37 7.38l1.75 1.1a.6.6 0 0 1 .04.99l-1.6 1.16c.95.06 1.85.02 2.6-.13 4.71-.94 7.85-4.5 7.85-10.35 0-.48-1.01-2.14-2.94-2.14Zm-4.9 2.81a4.9 4.9 0 0 1 8.38-3.35c.72-.01 1.32.17 2.67-.65C21.17 6 21 6.7 20.3 7.69c0 7.64-4.7 11.36-9.46 12.31-3.27.65-8.02-.42-9.38-1.84.69-.05 3.5-.36 5.14-1.55C5.2 15.7-.28 12.47 3.33 3.79c1.7 1.97 3.4 3.32 5.15 4.03 1.16.48 1.44.47 1.97.54Z" />
+              </svg>
+            </a>
+            <a href="whatsapp://send?text=https://vmx.link" target="_blank" rel="noopener noreferrer"
+              class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="m7.25 18.5.73.42a8 8 0 1 0-2.9-2.9l.43.73-.66 2.4 2.4-.66ZM2.01 22l1.35-4.97a10 10 0 1 1 3.61 3.61L2.01 22ZM8.39 7.3h.4l.17.02c.16.02.33.12.39.25l.87 2.04c.06.15.02.35-.1.54a4.35 4.35 0 0 1-.61.78s-.1.12-.07.26l.1.2.07.1c.25.43.6.86 1.02 1.27.12.12.23.24.36.35.47.41 1 .75 1.57 1l.26.1a1.43 1.43 0 0 0 .26.09c.16 0 .26-.1.3-.14.72-.88.78-.94.79-.94.1-.1.24-.13.38-.12a.5.5 0 0 1 .17.04l1.4.62.59.26c.1.05.18.16.19.27l-.02.37c-.03.26-.1.57-.18.73-.06.12-.13.22-.21.3a2.38 2.38 0 0 1-.46.38l-.38.22c-.26.14-.54.22-.83.23-.19.01-.38.02-.56.01l-.57-.08a9.45 9.45 0 0 1-3.84-2.05c-.23-.2-.43-.41-.65-.62a9.52 9.52 0 0 1-1.97-2.75c-.2-.44-.33-.92-.33-1.4 0-.62.2-1.2.57-1.69.07-.1.14-.2.26-.3a.96.96 0 0 1 .67-.33Z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://vmx.link" target="_blank"
+              rel="noopener noreferrer" class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor">
+                <path
+                  d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Zm1 2v14h14V5H5Zm2.5 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm-1 1h2v7.5h-2V10Zm5.5.43a2.93 2.93 0 0 1 2-.93c2.07 0 3.5 1.68 3.5 3.75v4.25h-2v-4.25a1.75 1.75 0 1 0-3.5 0v4.25h-2V10h2v.43Z" />
+              </svg>
+            </a>
+
+          </div>
+
+          <span class=" mb-3 md:mb-0 ">Powered by <a class="text-indigo-300" href="https://alpha.net.bd"
+              target="_blank">Alpha
+              Net</a></span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- <script async src="https://www.google.com/recaptcha/api.js?render=6LedO_MlAAAAAPRm8Rviu7P9QB-MzOBd-ZSFD3zc"></script> -->
+
+
+  <script>
+
+    // Replace the current history entry with the current URL
+    window.history.replaceState(null, null, window.location.href);
+
+    // Get all the copy buttons
+    const copyButtons = document.querySelectorAll('[data-copy]');
+
+    // Define a function to show and hide the icons
+    const toggleIcons = (copyButton, showCheck) => {
+      const checkIcon = copyButton.querySelector('svg.check');
+      const copyIcon = copyButton.querySelector('svg.copy');
+
+      checkIcon.classList.toggle('hidden', !showCheck);
+      copyIcon.classList.toggle('hidden', showCheck);
+    };
+
+    // Add a click event listener to each copy button
+    copyButtons.forEach(copyButton => {
+      copyButton.addEventListener('click', () => {
+        // Get the text to be copied from the data-copy attribute
+        const textToCopy = copyButton.dataset.copy;
+
+        // Copy the text to clipboard
+        navigator.clipboard.writeText(textToCopy).then(() => {
+          // Show the check icon and hide it after 3 seconds
+          toggleIcons(copyButton, true);
+
+          setTimeout(() => {
+            toggleIcons(copyButton, false);
+          }, 3000);
+        });
+      });
+    });
+
+    // add class to header after certain scroll
+    window.addEventListener('scroll', function () {
+      let navbar = document.querySelector('header nav');
+      navbar.classList[window.scrollY > 50 ? 'add' : 'remove']('bg-neutral-900/50');
+    });
+
+    // if #stats exists, make a async request to the page and do nothing
+    if (document.getElementById('states')) {
+      fetch(document.getElementById('states').href).then(res => res.text()).then(res => {
+        console.log('Great work! 👍');
+      });
+    }
+
+    $(document).ready(function () {
+      $('#nav-toggle').click(function () {
+        $('#nav-menu').toggleClass('hidden');
+      });
+    });
+
+    // Accordion 
+    function toggleAccordion(id, button) {
+
+      const element = document.getElementById(id);
+      const icon = button.querySelector('i');
+      if (element.classList.contains('max-h-0')) {
+        // Remove bg-slate-50 from all buttons
+        const allButtons = document.querySelectorAll('.accordion-content');
+        allButtons.forEach(btn => btn.classList.remove('bg-slate-50'));
+
+        // Add bg-slate-50 to the active button
+        button.classList.add('bg-slate-50');
+
+        element.classList.remove('max-h-0', 'py-0');
+        element.classList.add('max-h-60', 'py-4'); // Adjust max height as necessary
+        icon.classList.add('rotate-180');
+      } else {
+        button.classList.remove('bg-slate-50');
+        element.classList.add('max-h-0', 'py-0');
+        element.classList.remove('max-h-60', 'py-4');
+        icon.classList.remove('rotate-180');
+      }
+
+    }
+
+  </script>
+
+</body>
+
+</html>
